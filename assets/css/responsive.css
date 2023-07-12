@@ -2,20 +2,38 @@
 @media (min-width: 1024px) {
     
 }
+/* Tablet & mobile */
+@media(max-width:1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+   
+}
 
 /* Tablet */
 @media (min-width: 740px) and (max-width:1023px) {
-    
+    .contact-info{
+        line-height:2 ;
+    }
 }
 
 
 /* Mobile */
-@media (max-width: 740px) {
-    
+@media (max-width: 739px) {
+    .s-full-width,
     .s-col-full{
-        width: 100%;
-    }
+        width: 100% !important;
+    } 
     
+    
+    
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
     #header{
         overflow: hidden;
     }
@@ -60,6 +78,10 @@
 
     #content .member-img{
         width: 60%; 
+    }
+
+    .contact-form{
+        margin-top: 16px;
     }
 
     #nav li:hover a {
